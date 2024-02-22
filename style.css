@@ -1,0 +1,90 @@
+body {
+    background: #d8c472;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+main {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+header > h1 {
+    text-align: center;
+    color: #ffffff;
+    background-color: #4d4b43;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #0f0f0f;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 3px solid #0f0f0f;
+    background: #92835a;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #0f0f0f;
+}
+
+.container > .content {
+    background: #9e9270;
+    margin: 4% 4% 4% 12%;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #0f0f0f;
+}
+
+.container > .content h1{
+    text-align: center;
+    background: #dacb8f;
+    margin: 10px 10px 0 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #7a7047;
+}
+
+.container > .content p {
+    margin: 7% 15% 4% 15%;
+    text-align: justify;
+    word-spacing: 5px;
+}
+
+.container > .responsive {
+    width: 100%;
+    margin: 4% 4% 4% 4%;
+    border: 3px solid #4d4b43;
+    object-fit: cover; 
+    object-position: 25% 25%;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #0f0f0f;
+}
+
+.header1 {
+    text-align: center;
+    background: #9e9270;
+    margin: 2% 10% 2% 10%;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #0f0f0f;
+}
+
+center.video {
+    max-width: 100%;
+    pointer-events: none;   
+}
+
+footer > h3 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer > h5 {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+footer > cite {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+footer > p {
+    text-align: center;
+}
